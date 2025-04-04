@@ -1,0 +1,56 @@
+2025-04-03 19:15:55,537 - [Run:20250403_185351] - Training final model with best hyperparameters:
+2025-04-03 19:15:55,537 - [Run:20250403_185351] - Batch Size: 173
+2025-04-03 19:15:55,538 - [Run:20250403_185351] - Learning Rate: 0.001581
+2025-04-03 19:15:55,539 - [Run:20250403_185351] - Beta 1: 0.877051
+2025-04-03 19:15:55,539 - [Run:20250403_185351] - Beta 2: 0.945393
+2025-04-03 19:15:55,540 - [Run:20250403_185351] - Epochs: 27
+2025-04-03 19:16:02,072 - [Run:20250403_185351] - Epoch 1/27: loss=2.2604, val_loss=2.0628, accuracy=0.1649, val_accuracy=0.2700
+2025-04-03 19:16:02,259 - [Run:20250403_185351] - Epoch 2/27: loss=1.9858, val_loss=1.9203, accuracy=0.2893, val_accuracy=0.3180
+2025-04-03 19:16:02,444 - [Run:20250403_185351] - Epoch 3/27: loss=1.8509, val_loss=1.7924, accuracy=0.3447, val_accuracy=0.3900
+2025-04-03 19:16:02,626 - [Run:20250403_185351] - Epoch 4/27: loss=1.7793, val_loss=1.7626, accuracy=0.3820, val_accuracy=0.3980
+2025-04-03 19:16:02,808 - [Run:20250403_185351] - Epoch 5/27: loss=1.7147, val_loss=1.7678, accuracy=0.4111, val_accuracy=0.4220
+2025-04-03 19:16:02,992 - [Run:20250403_185351] - Epoch 6/27: loss=1.6720, val_loss=1.6725, accuracy=0.4258, val_accuracy=0.4380
+2025-04-03 19:16:03,175 - [Run:20250403_185351] - Epoch 7/27: loss=1.6194, val_loss=1.6256, accuracy=0.4396, val_accuracy=0.4360
+2025-04-03 19:16:03,360 - [Run:20250403_185351] - Epoch 8/27: loss=1.5748, val_loss=1.5898, accuracy=0.4571, val_accuracy=0.4700
+2025-04-03 19:16:03,544 - [Run:20250403_185351] - Epoch 9/27: loss=1.5187, val_loss=1.5818, accuracy=0.4709, val_accuracy=0.4740
+2025-04-03 19:16:03,725 - [Run:20250403_185351] - Epoch 10/27: loss=1.4801, val_loss=1.5457, accuracy=0.4858, val_accuracy=0.4820
+2025-04-03 19:16:03,906 - [Run:20250403_185351] - Epoch 11/27: loss=1.4456, val_loss=1.5903, accuracy=0.4998, val_accuracy=0.4700
+2025-04-03 19:16:04,089 - [Run:20250403_185351] - Epoch 12/27: loss=1.4330, val_loss=1.5305, accuracy=0.5069, val_accuracy=0.4820
+2025-04-03 19:16:04,271 - [Run:20250403_185351] - Epoch 13/27: loss=1.3816, val_loss=1.5213, accuracy=0.5231, val_accuracy=0.5000
+2025-04-03 19:16:04,453 - [Run:20250403_185351] - Epoch 14/27: loss=1.3661, val_loss=1.5779, accuracy=0.5296, val_accuracy=0.4720
+2025-04-03 19:16:04,635 - [Run:20250403_185351] - Epoch 15/27: loss=1.3506, val_loss=1.4712, accuracy=0.5453, val_accuracy=0.5160
+2025-04-03 19:16:04,814 - [Run:20250403_185351] - Epoch 16/27: loss=1.3127, val_loss=1.4921, accuracy=0.5560, val_accuracy=0.5020
+2025-04-03 19:16:04,996 - [Run:20250403_185351] - Epoch 17/27: loss=1.3077, val_loss=1.4980, accuracy=0.5551, val_accuracy=0.4920
+2025-04-03 19:16:05,177 - [Run:20250403_185351] - Epoch 18/27: loss=1.2810, val_loss=1.4960, accuracy=0.5707, val_accuracy=0.4900
+2025-04-03 19:16:05,360 - [Run:20250403_185351] - Epoch 19/27: loss=1.2544, val_loss=1.4692, accuracy=0.5753, val_accuracy=0.5140
+2025-04-03 19:16:05,552 - [Run:20250403_185351] - Epoch 20/27: loss=1.2340, val_loss=1.5449, accuracy=0.5782, val_accuracy=0.4800
+2025-04-03 19:16:05,737 - [Run:20250403_185351] - Epoch 21/27: loss=1.2277, val_loss=1.5287, accuracy=0.5827, val_accuracy=0.5020
+2025-04-03 19:16:05,920 - [Run:20250403_185351] - Epoch 22/27: loss=1.2181, val_loss=1.5222, accuracy=0.5889, val_accuracy=0.4980
+2025-04-03 19:16:06,103 - [Run:20250403_185351] - Epoch 23/27: loss=1.2025, val_loss=1.6244, accuracy=0.5929, val_accuracy=0.4880
+2025-04-03 19:16:06,297 - [Run:20250403_185351] - Epoch 24/27: loss=1.2048, val_loss=1.4947, accuracy=0.5849, val_accuracy=0.5100
+2025-04-03 19:16:06,489 - [Run:20250403_185351] - Epoch 25/27: loss=1.1799, val_loss=1.4897, accuracy=0.6093, val_accuracy=0.5020
+2025-04-03 19:16:06,680 - [Run:20250403_185351] - Epoch 26/27: loss=1.1509, val_loss=1.4726, accuracy=0.6089, val_accuracy=0.5040
+2025-04-03 19:16:06,868 - [Run:20250403_185351] - Epoch 27/27: loss=1.1434, val_loss=1.5272, accuracy=0.6164, val_accuracy=0.4960
+2025-04-03 19:16:06,922 - [Run:20250403_185351] - Model saved to hyperparam_logs/best_model_20250403_185351.keras
+2025-04-03 19:16:08,262 - [Run:20250403_185351] - Classification Report (Test):
+              precision    recall  f1-score   support
+
+           0       0.60      0.48      0.53      1000
+           1       0.71      0.61      0.65      1000
+           2       0.44      0.38      0.40      1000
+           3       0.28      0.54      0.37      1000
+           4       0.44      0.33      0.38      1000
+           5       0.39      0.37      0.38      1000
+           6       0.60      0.45      0.52      1000
+           7       0.55      0.58      0.56      1000
+           8       0.59      0.59      0.59      1000
+           9       0.55      0.57      0.56      1000
+
+    accuracy                           0.49     10000
+   macro avg       0.51      0.49      0.49     10000
+weighted avg       0.51      0.49      0.49     10000
+
+2025-04-03 19:16:09,786 - [Run:20250403_185351] - Final test loss: 1.4904
+2025-04-03 19:16:09,787 - [Run:20250403_185351] - Final test accuracy: 0.4891
+2025-04-03 19:16:10,073 - [Run:20250403_185351] - Training history plot saved to hyperparam_logs/training_history_20250403_185351.png
+2025-04-03 19:16:10,666 - [Run:20250403_185351] - Confusion matrix plot saved to hyperparam_logs/confusion_matrix_20250403_185351.png

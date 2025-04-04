@@ -1,0 +1,16 @@
+Comparison between Global Random Search and Population Random Search:
+
+Metric                         Global RS       Population RS   Difference (PRS-GRS)
+--------------------------------------------------------------------------------
+Best validation loss           1.515856        1.459570        -0.056286           
+Total evaluations              20              74              54                  
+Total search time (s)          235.50          913.53          678.03              
+Avg evaluation time (s)        11.78           12.35           0.57                
+
+Convergence comparison:
+Evaluations     GRS best loss   PRS best loss   Difference     
+------------------------------------------------------------
+5               1.577350        1.612202        0.034852       
+10              1.546204        1.490966        -0.055238      
+20              1.515856        1.487575        -0.028281      
+20              1.515856        1.487575        -0.028281      

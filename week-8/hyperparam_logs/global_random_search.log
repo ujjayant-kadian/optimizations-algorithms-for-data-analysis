@@ -1,0 +1,198 @@
+2025-04-03 18:53:58,204 - [Run:20250403_185351] - Starting Global Random Search with N=20 samples
+2025-04-03 18:53:58,204 - [Run:20250403_185351] - Parameter bounds: [(16, 256), (0.0001, 0.01), (0.8, 0.99), (0.9, 0.9999), (5, 30)]
+2025-04-03 18:53:58,205 - [Run:20250403_185351] - Sample 1/20: Testing candidate [4.67967691e+01 7.76975684e-03 9.17004362e-01 9.64679557e-01
+ 1.11431716e+01]
+2025-04-03 18:53:58,206 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=46, lr=0.007770, beta1=0.917004, beta2=0.964680, epochs=11
+2025-04-03 18:54:07,655 - [Run:20250403_185351] -   Epoch 1/11: loss=2.2079, val_loss=2.1438, accuracy=0.1968, val_accuracy=0.2050
+2025-04-03 18:54:09,422 - [Run:20250403_185351] -   Epoch 6/11: loss=1.8200, val_loss=1.7999, accuracy=0.3643, val_accuracy=0.3710
+2025-04-03 18:54:11,182 - [Run:20250403_185351] -   Epoch 11/11: loss=1.6514, val_loss=1.7769, accuracy=0.4302, val_accuracy=0.4000
+2025-04-03 18:54:11,197 - [Run:20250403_185351] -   Result: val_loss=1.7176, val_accuracy=0.4160, stopped at epoch 11/11
+2025-04-03 18:54:11,420 - [Run:20250403_185351] - Sample 1/20: Cost = 1.717565, Time = 0.00s
+2025-04-03 18:54:11,422 - [Run:20250403_185351] - Sample 1/20: New best cost = 1.717565
+2025-04-03 18:54:11,424 - [Run:20250403_185351] - Sample 2/20: Testing candidate [1.62070862e+02 7.51453226e-03 8.58987898e-01 9.94603682e-01
+ 1.44093284e+01]
+2025-04-03 18:54:11,425 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=162, lr=0.007515, beta1=0.858988, beta2=0.994604, epochs=14
+2025-04-03 18:54:21,865 - [Run:20250403_185351] -   Epoch 1/14: loss=2.2995, val_loss=2.1778, accuracy=0.1370, val_accuracy=0.1780
+2025-04-03 18:54:22,799 - [Run:20250403_185351] -   Epoch 6/14: loss=1.7229, val_loss=1.7068, accuracy=0.4062, val_accuracy=0.3980
+2025-04-03 18:54:23,719 - [Run:20250403_185351] -   Epoch 11/14: loss=1.5320, val_loss=1.5779, accuracy=0.4770, val_accuracy=0.4430
+2025-04-03 18:54:24,274 - [Run:20250403_185351] -   Result: val_loss=1.5774, val_accuracy=0.4540, stopped at epoch 14/14
+2025-04-03 18:54:24,513 - [Run:20250403_185351] - Sample 2/20: Cost = 1.577350, Time = 13.22s
+2025-04-03 18:54:24,514 - [Run:20250403_185351] - Sample 2/20: New best cost = 1.577350
+2025-04-03 18:54:24,516 - [Run:20250403_185351] - Sample 3/20: Testing candidate [1.02138298e+02 3.91312222e-03 9.71580516e-01 9.30680231e-01
+ 2.03409161e+01]
+2025-04-03 18:54:24,516 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=102, lr=0.003913, beta1=0.971581, beta2=0.930680, epochs=20
+2025-04-03 18:54:33,621 - [Run:20250403_185351] -   Epoch 1/20: loss=2.2841, val_loss=2.1536, accuracy=0.1435, val_accuracy=0.2290
+2025-04-03 18:54:34,737 - [Run:20250403_185351] -   Epoch 6/20: loss=1.6426, val_loss=1.6508, accuracy=0.4225, val_accuracy=0.4260
+2025-04-03 18:54:35,840 - [Run:20250403_185351] -   Epoch 11/20: loss=1.4198, val_loss=1.5989, accuracy=0.5098, val_accuracy=0.4440
+2025-04-03 18:54:36,288 - [Run:20250403_185351] -   Result: val_loss=1.5967, val_accuracy=0.4530, stopped at epoch 13/20
+2025-04-03 18:54:36,517 - [Run:20250403_185351] - Sample 3/20: Cost = 1.596702, Time = 26.31s
+2025-04-03 18:54:36,519 - [Run:20250403_185351] - Sample 4/20: Testing candidate [7.93404484e+01 7.78068544e-03 9.87807720e-01 9.97283243e-01
+ 7.96263195e+00]
+2025-04-03 18:54:36,520 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=79, lr=0.007781, beta1=0.987808, beta2=0.997283, epochs=7
+2025-04-03 18:54:45,909 - [Run:20250403_185351] -   Epoch 1/7: loss=2.3427, val_loss=2.3043, accuracy=0.1200, val_accuracy=0.1580
+2025-04-03 18:54:47,155 - [Run:20250403_185351] -   Epoch 6/7: loss=2.1739, val_loss=2.1344, accuracy=0.1782, val_accuracy=0.1910
+2025-04-03 18:54:47,422 - [Run:20250403_185351] -   Result: val_loss=2.1155, val_accuracy=0.2070, stopped at epoch 7/7
+2025-04-03 18:54:47,650 - [Run:20250403_185351] - Sample 4/20: Cost = 2.115531, Time = 38.31s
+2025-04-03 18:54:47,652 - [Run:20250403_185351] - Sample 5/20: Testing candidate [2.10712436e+02 6.51081303e-03 9.43722521e-01 9.38139999e-01
+ 1.36905925e+01]
+2025-04-03 18:54:47,653 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=210, lr=0.006511, beta1=0.943723, beta2=0.938140, epochs=13
+2025-04-03 18:54:57,058 - [Run:20250403_185351] -   Epoch 1/13: loss=2.2655, val_loss=2.1246, accuracy=0.1560, val_accuracy=0.2300
+2025-04-03 18:54:57,882 - [Run:20250403_185351] -   Epoch 6/13: loss=1.7823, val_loss=1.8333, accuracy=0.3715, val_accuracy=0.3620
+2025-04-03 18:54:58,693 - [Run:20250403_185351] -   Epoch 11/13: loss=1.5674, val_loss=1.6447, accuracy=0.4640, val_accuracy=0.4430
+2025-04-03 18:54:59,030 - [Run:20250403_185351] -   Result: val_loss=1.6185, val_accuracy=0.4470, stopped at epoch 13/13
+2025-04-03 18:54:59,264 - [Run:20250403_185351] - Sample 5/20: Cost = 1.618475, Time = 49.45s
+2025-04-03 18:54:59,267 - [Run:20250403_185351] - Sample 6/20: Testing candidate [1.20142338e+02 9.97004004e-03 8.30894080e-01 9.91816399e-01
+ 1.84550442e+01]
+2025-04-03 18:54:59,269 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=120, lr=0.009970, beta1=0.830894, beta2=0.991816, epochs=18
+2025-04-03 18:55:08,599 - [Run:20250403_185351] -   Epoch 1/18: loss=2.2969, val_loss=2.2202, accuracy=0.1698, val_accuracy=0.2240
+2025-04-03 18:55:09,660 - [Run:20250403_185351] -   Epoch 6/18: loss=1.7567, val_loss=1.7312, accuracy=0.3840, val_accuracy=0.3970
+2025-04-03 18:55:10,734 - [Run:20250403_185351] -   Epoch 11/18: loss=1.5966, val_loss=1.6972, accuracy=0.4462, val_accuracy=0.4030
+2025-04-03 18:55:11,170 - [Run:20250403_185351] -   Result: val_loss=1.6526, val_accuracy=0.4340, stopped at epoch 13/18
+2025-04-03 18:55:11,440 - [Run:20250403_185351] - Sample 6/20: Cost = 1.652579, Time = 61.06s
+2025-04-03 18:55:11,442 - [Run:20250403_185351] - Sample 7/20: Testing candidate [1.74205778e+02 9.72689512e-04 9.57345857e-01 9.08939888e-01
+ 2.21034687e+01]
+2025-04-03 18:55:11,443 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=174, lr=0.000973, beta1=0.957346, beta2=0.908940, epochs=22
+2025-04-03 18:55:22,232 - [Run:20250403_185351] -   Epoch 1/22: loss=2.3381, val_loss=2.2942, accuracy=0.1240, val_accuracy=0.1390
+2025-04-03 18:55:23,094 - [Run:20250403_185351] -   Epoch 6/22: loss=1.8083, val_loss=1.7747, accuracy=0.3717, val_accuracy=0.4050
+2025-04-03 18:55:23,951 - [Run:20250403_185351] -   Epoch 11/22: loss=1.6011, val_loss=1.6400, accuracy=0.4435, val_accuracy=0.4400
+2025-04-03 18:55:24,814 - [Run:20250403_185351] -   Epoch 16/22: loss=1.4491, val_loss=1.5701, accuracy=0.5013, val_accuracy=0.4610
+2025-04-03 18:55:25,670 - [Run:20250403_185351] -   Epoch 21/22: loss=1.3580, val_loss=1.5462, accuracy=0.5440, val_accuracy=0.4700
+2025-04-03 18:55:25,858 - [Run:20250403_185351] -   Result: val_loss=1.5462, val_accuracy=0.4860, stopped at epoch 22/22
+2025-04-03 18:55:26,129 - [Run:20250403_185351] - Sample 7/20: Cost = 1.546204, Time = 73.24s
+2025-04-03 18:55:26,130 - [Run:20250403_185351] - Sample 7/20: New best cost = 1.546204
+2025-04-03 18:55:26,133 - [Run:20250403_185351] - Sample 8/20: Testing candidate [1.68792161e+02 9.89139030e-03 9.66520741e-01 9.38370867e-01
+ 2.76429906e+01]
+2025-04-03 18:55:26,134 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=168, lr=0.009891, beta1=0.966521, beta2=0.938371, epochs=27
+2025-04-03 18:55:36,761 - [Run:20250403_185351] -   Epoch 1/27: loss=2.2776, val_loss=2.1709, accuracy=0.1660, val_accuracy=0.2220
+2025-04-03 18:55:37,644 - [Run:20250403_185351] -   Epoch 6/27: loss=1.7297, val_loss=1.7209, accuracy=0.3965, val_accuracy=0.3950
+2025-04-03 18:55:38,526 - [Run:20250403_185351] -   Epoch 11/27: loss=1.6297, val_loss=1.6673, accuracy=0.4360, val_accuracy=0.4020
+2025-04-03 18:55:39,414 - [Run:20250403_185351] -   Epoch 16/27: loss=1.4784, val_loss=1.5923, accuracy=0.4995, val_accuracy=0.4660
+2025-04-03 18:55:39,784 - [Run:20250403_185351] -   Result: val_loss=1.5826, val_accuracy=0.4710, stopped at epoch 18/27
+2025-04-03 18:55:40,058 - [Run:20250403_185351] - Sample 8/20: Cost = 1.582610, Time = 87.93s
+2025-04-03 18:55:40,059 - [Run:20250403_185351] - Sample 9/20: Testing candidate [3.48154343e+01 2.80816685e-03 9.76798461e-01 9.53038027e-01
+ 1.25911855e+01]
+2025-04-03 18:55:40,061 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=34, lr=0.002808, beta1=0.976798, beta2=0.953038, epochs=12
+2025-04-03 18:55:47,677 - [Run:20250403_185351] -   Epoch 1/12: loss=2.1807, val_loss=2.1021, accuracy=0.2042, val_accuracy=0.2380
+2025-04-03 18:55:49,880 - [Run:20250403_185351] -   Epoch 6/12: loss=1.6281, val_loss=1.6273, accuracy=0.4310, val_accuracy=0.4300
+2025-04-03 18:55:51,233 - [Run:20250403_185351] -   Result: val_loss=1.6273, val_accuracy=0.4370, stopped at epoch 9/12
+2025-04-03 18:55:51,508 - [Run:20250403_185351] - Sample 9/20: Cost = 1.627337, Time = 101.85s
+2025-04-03 18:55:51,511 - [Run:20250403_185351] - Sample 10/20: Testing candidate [6.07624852e+01 4.14494772e-03 9.76225022e-01 9.93074522e-01
+ 2.04753040e+01]
+2025-04-03 18:55:51,512 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=60, lr=0.004145, beta1=0.976225, beta2=0.993075, epochs=20
+2025-04-03 18:55:59,169 - [Run:20250403_185351] -   Epoch 1/20: loss=2.1855, val_loss=1.9538, accuracy=0.2157, val_accuracy=0.3090
+2025-04-03 18:56:00,670 - [Run:20250403_185351] -   Epoch 6/20: loss=1.6567, val_loss=1.6524, accuracy=0.4205, val_accuracy=0.4120
+2025-04-03 18:56:02,200 - [Run:20250403_185351] -   Epoch 11/20: loss=1.4795, val_loss=1.6731, accuracy=0.4812, val_accuracy=0.4050
+2025-04-03 18:56:02,216 - [Run:20250403_185351] -   Result: val_loss=1.6001, val_accuracy=0.4320, stopped at epoch 11/20
+2025-04-03 18:56:02,512 - [Run:20250403_185351] - Sample 10/20: Cost = 1.600110, Time = 113.31s
+2025-04-03 18:56:02,515 - [Run:20250403_185351] - Sample 11/20: Testing candidate [3.73814744e+01 4.34154050e-03 9.06064837e-01 9.73985061e-01
+ 2.78129240e+01]
+2025-04-03 18:56:02,516 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=37, lr=0.004342, beta1=0.906065, beta2=0.973985, epochs=27
+2025-04-03 18:56:11,059 - [Run:20250403_185351] -   Epoch 1/27: loss=2.1599, val_loss=2.0250, accuracy=0.2132, val_accuracy=0.2720
+2025-04-03 18:56:13,164 - [Run:20250403_185351] -   Epoch 6/27: loss=1.5916, val_loss=1.6408, accuracy=0.4530, val_accuracy=0.4550
+2025-04-03 18:56:15,364 - [Run:20250403_185351] -   Epoch 11/27: loss=1.4187, val_loss=1.6307, accuracy=0.5213, val_accuracy=0.4590
+2025-04-03 18:56:15,385 - [Run:20250403_185351] -   Result: val_loss=1.6003, val_accuracy=0.4800, stopped at epoch 11/27
+2025-04-03 18:56:15,699 - [Run:20250403_185351] - Sample 11/20: Cost = 1.600257, Time = 124.31s
+2025-04-03 18:56:15,700 - [Run:20250403_185351] - Sample 12/20: Testing candidate [2.55047511e+02 4.17167951e-03 9.67947695e-01 9.82661690e-01
+ 1.95846523e+01]
+2025-04-03 18:56:15,703 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=255, lr=0.004172, beta1=0.967948, beta2=0.982662, epochs=19
+2025-04-03 18:56:26,481 - [Run:20250403_185351] -   Epoch 1/19: loss=2.2656, val_loss=2.1505, accuracy=0.1710, val_accuracy=0.2340
+2025-04-03 18:56:27,267 - [Run:20250403_185351] -   Epoch 6/19: loss=1.6781, val_loss=1.7105, accuracy=0.4120, val_accuracy=0.4250
+2025-04-03 18:56:28,039 - [Run:20250403_185351] -   Epoch 11/19: loss=1.4499, val_loss=1.5674, accuracy=0.4885, val_accuracy=0.4680
+2025-04-03 18:56:28,807 - [Run:20250403_185351] -   Epoch 16/19: loss=1.2880, val_loss=1.5416, accuracy=0.5625, val_accuracy=0.4930
+2025-04-03 18:56:29,282 - [Run:20250403_185351] -   Result: val_loss=1.5416, val_accuracy=0.4930, stopped at epoch 19/19
+2025-04-03 18:56:29,592 - [Run:20250403_185351] - Sample 12/20: Cost = 1.541618, Time = 137.49s
+2025-04-03 18:56:29,594 - [Run:20250403_185351] - Sample 12/20: New best cost = 1.541618
+2025-04-03 18:56:29,595 - [Run:20250403_185351] - Sample 13/20: Testing candidate [1.52476309e+02 9.81704650e-03 8.71420800e-01 9.43646989e-01
+ 1.75632412e+01]
+2025-04-03 18:56:29,596 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=152, lr=0.009817, beta1=0.871421, beta2=0.943647, epochs=17
+2025-04-03 18:56:39,387 - [Run:20250403_185351] -   Epoch 1/17: loss=2.2372, val_loss=2.0765, accuracy=0.1760, val_accuracy=0.2190
+2025-04-03 18:56:40,313 - [Run:20250403_185351] -   Epoch 6/17: loss=1.6662, val_loss=1.6326, accuracy=0.4160, val_accuracy=0.4440
+2025-04-03 18:56:41,236 - [Run:20250403_185351] -   Epoch 11/17: loss=1.5503, val_loss=1.6032, accuracy=0.4582, val_accuracy=0.4360
+2025-04-03 18:56:42,145 - [Run:20250403_185351] -   Epoch 16/17: loss=1.4436, val_loss=1.6266, accuracy=0.5027, val_accuracy=0.4480
+2025-04-03 18:56:42,344 - [Run:20250403_185351] -   Result: val_loss=1.5581, val_accuracy=0.4630, stopped at epoch 17/17
+2025-04-03 18:56:42,663 - [Run:20250403_185351] - Sample 13/20: Cost = 1.558098, Time = 151.39s
+2025-04-03 18:56:42,666 - [Run:20250403_185351] - Sample 14/20: Testing candidate [1.88002938e+02 5.28793463e-03 9.14044737e-01 9.38240194e-01
+ 6.57440762e+00]
+2025-04-03 18:56:42,666 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=188, lr=0.005288, beta1=0.914045, beta2=0.938240, epochs=6
+2025-04-03 18:56:52,001 - [Run:20250403_185351] -   Epoch 1/6: loss=2.2159, val_loss=1.9976, accuracy=0.1807, val_accuracy=0.2840
+2025-04-03 18:56:52,860 - [Run:20250403_185351] -   Epoch 6/6: loss=1.5639, val_loss=1.6295, accuracy=0.4555, val_accuracy=0.4270
+2025-04-03 18:56:52,876 - [Run:20250403_185351] -   Result: val_loss=1.6100, val_accuracy=0.4450, stopped at epoch 6/6
+2025-04-03 18:56:53,209 - [Run:20250403_185351] - Sample 14/20: Cost = 1.610049, Time = 164.46s
+2025-04-03 18:56:53,211 - [Run:20250403_185351] - Sample 15/20: Testing candidate [1.61953334e+02 6.23709323e-03 8.58445352e-01 9.61838311e-01
+ 2.04478944e+01]
+2025-04-03 18:56:53,213 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=161, lr=0.006237, beta1=0.858445, beta2=0.961838, epochs=20
+2025-04-03 18:57:02,010 - [Run:20250403_185351] -   Epoch 1/20: loss=2.2773, val_loss=2.2341, accuracy=0.1562, val_accuracy=0.1770
+2025-04-03 18:57:02,911 - [Run:20250403_185351] -   Epoch 6/20: loss=1.6886, val_loss=1.6613, accuracy=0.4103, val_accuracy=0.4200
+2025-04-03 18:57:03,799 - [Run:20250403_185351] -   Epoch 11/20: loss=1.5063, val_loss=1.6134, accuracy=0.4815, val_accuracy=0.4660
+2025-04-03 18:57:04,696 - [Run:20250403_185351] -   Epoch 16/20: loss=1.3153, val_loss=1.5745, accuracy=0.5615, val_accuracy=0.4750
+2025-04-03 18:57:04,712 - [Run:20250403_185351] -   Result: val_loss=1.5674, val_accuracy=0.4900, stopped at epoch 16/20
+2025-04-03 18:57:05,044 - [Run:20250403_185351] - Sample 15/20: Cost = 1.567351, Time = 175.01s
+2025-04-03 18:57:05,047 - [Run:20250403_185351] - Sample 16/20: Testing candidate [1.02457061e+02 7.33113570e-03 9.11974929e-01 9.10157466e-01
+ 1.67455369e+01]
+2025-04-03 18:57:05,048 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=102, lr=0.007331, beta1=0.911975, beta2=0.910157, epochs=16
+2025-04-03 18:57:11,442 - [Run:20250403_185351] -   Epoch 1/16: loss=2.2390, val_loss=2.1017, accuracy=0.1750, val_accuracy=0.2420
+2025-04-03 18:57:12,553 - [Run:20250403_185351] -   Epoch 6/16: loss=1.8232, val_loss=1.8068, accuracy=0.3570, val_accuracy=0.3650
+2025-04-03 18:57:13,662 - [Run:20250403_185351] -   Epoch 11/16: loss=1.5600, val_loss=1.6625, accuracy=0.4748, val_accuracy=0.4360
+2025-04-03 18:57:14,750 - [Run:20250403_185351] -   Epoch 16/16: loss=1.4768, val_loss=1.6020, accuracy=0.4975, val_accuracy=0.4690
+2025-04-03 18:57:14,766 - [Run:20250403_185351] -   Result: val_loss=1.5707, val_accuracy=0.4790, stopped at epoch 16/16
+2025-04-03 18:57:15,091 - [Run:20250403_185351] - Sample 16/20: Cost = 1.570726, Time = 186.84s
+2025-04-03 18:57:15,094 - [Run:20250403_185351] - Sample 17/20: Testing candidate [2.26761561e+02 7.67301714e-03 8.26854954e-01 9.95145888e-01
+ 1.12745577e+01]
+2025-04-03 18:57:15,095 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=226, lr=0.007673, beta1=0.826855, beta2=0.995146, epochs=11
+2025-04-03 18:57:25,914 - [Run:20250403_185351] -   Epoch 1/11: loss=2.3136, val_loss=2.1703, accuracy=0.1388, val_accuracy=0.2270
+2025-04-03 18:57:26,709 - [Run:20250403_185351] -   Epoch 6/11: loss=1.7243, val_loss=1.7444, accuracy=0.3968, val_accuracy=0.3740
+2025-04-03 18:57:27,503 - [Run:20250403_185351] -   Epoch 11/11: loss=1.4933, val_loss=1.6568, accuracy=0.4918, val_accuracy=0.4340
+2025-04-03 18:57:27,518 - [Run:20250403_185351] -   Result: val_loss=1.6568, val_accuracy=0.4430, stopped at epoch 11/11
+2025-04-03 18:57:27,864 - [Run:20250403_185351] - Sample 17/20: Cost = 1.656772, Time = 196.89s
+2025-04-03 18:57:27,865 - [Run:20250403_185351] - Sample 18/20: Testing candidate [9.91977598e+01 2.13681817e-03 9.38511398e-01 9.55797958e-01
+ 1.92950538e+01]
+2025-04-03 18:57:27,866 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=99, lr=0.002137, beta1=0.938511, beta2=0.955798, epochs=19
+2025-04-03 18:57:35,969 - [Run:20250403_185351] -   Epoch 1/19: loss=2.2048, val_loss=2.0740, accuracy=0.1920, val_accuracy=0.2540
+2025-04-03 18:57:37,094 - [Run:20250403_185351] -   Epoch 6/19: loss=1.5618, val_loss=1.6068, accuracy=0.4505, val_accuracy=0.4530
+2025-04-03 18:57:38,213 - [Run:20250403_185351] -   Epoch 11/19: loss=1.4031, val_loss=1.5339, accuracy=0.5175, val_accuracy=0.4670
+2025-04-03 18:57:38,890 - [Run:20250403_185351] -   Result: val_loss=1.5339, val_accuracy=0.4950, stopped at epoch 14/19
+2025-04-03 18:57:39,240 - [Run:20250403_185351] - Sample 18/20: Cost = 1.533918, Time = 209.66s
+2025-04-03 18:57:39,241 - [Run:20250403_185351] - Sample 18/20: New best cost = 1.533918
+2025-04-03 18:57:39,242 - [Run:20250403_185351] - Sample 19/20: Testing candidate [1.82128560e+02 5.92812828e-03 8.64710374e-01 9.92393946e-01
+ 1.94268058e+01]
+2025-04-03 18:57:39,243 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=182, lr=0.005928, beta1=0.864710, beta2=0.992394, epochs=19
+2025-04-03 18:57:50,228 - [Run:20250403_185351] -   Epoch 1/19: loss=2.2524, val_loss=2.1190, accuracy=0.1755, val_accuracy=0.2390
+2025-04-03 18:57:51,080 - [Run:20250403_185351] -   Epoch 6/19: loss=1.6709, val_loss=1.6810, accuracy=0.4083, val_accuracy=0.4220
+2025-04-03 18:57:51,935 - [Run:20250403_185351] -   Epoch 11/19: loss=1.4259, val_loss=1.6412, accuracy=0.5200, val_accuracy=0.4430
+2025-04-03 18:57:52,794 - [Run:20250403_185351] -   Epoch 16/19: loss=1.2411, val_loss=1.6210, accuracy=0.5932, val_accuracy=0.4720
+2025-04-03 18:57:53,330 - [Run:20250403_185351] -   Result: val_loss=1.6154, val_accuracy=0.4750, stopped at epoch 19/19
+2025-04-03 18:57:53,704 - [Run:20250403_185351] - Sample 19/20: Cost = 1.615398, Time = 221.04s
+2025-04-03 18:57:53,706 - [Run:20250403_185351] - Sample 20/20: Testing candidate [1.91097024e+02 1.62503476e-03 8.68706176e-01 9.77475731e-01
+ 1.34307771e+01]
+2025-04-03 18:57:53,707 - [Run:20250403_185351] - Evaluating hyperparams: batch_size=191, lr=0.001625, beta1=0.868706, beta2=0.977476, epochs=13
+2025-04-03 18:58:04,460 - [Run:20250403_185351] -   Epoch 1/13: loss=2.2830, val_loss=2.0923, accuracy=0.1595, val_accuracy=0.2610
+2025-04-03 18:58:05,318 - [Run:20250403_185351] -   Epoch 6/13: loss=1.6586, val_loss=1.6664, accuracy=0.4255, val_accuracy=0.4290
+2025-04-03 18:58:06,171 - [Run:20250403_185351] -   Epoch 11/13: loss=1.4706, val_loss=1.5670, accuracy=0.4972, val_accuracy=0.4830
+2025-04-03 18:58:06,531 - [Run:20250403_185351] -   Result: val_loss=1.5159, val_accuracy=0.4830, stopped at epoch 13/13
+2025-04-03 18:58:06,900 - [Run:20250403_185351] - Sample 20/20: Cost = 1.515856, Time = 235.50s
+2025-04-03 18:58:06,901 - [Run:20250403_185351] - Sample 20/20: New best cost = 1.515856
+2025-04-03 18:58:06,902 - [Run:20250403_185351] - Global Random Search completed in 248.70s
+2025-04-03 18:58:06,903 - [Run:20250403_185351] - Best parameters: [1.91097024e+02 1.62503476e-03 8.68706176e-01 9.77475731e-01
+ 1.34307771e+01]
+2025-04-03 18:58:06,904 - [Run:20250403_185351] - Best cost: 1.515856
+2025-04-03 19:13:20,446 - [Run:20250403_185351] - 
+Hyperparameter Optimization Results:
+
+Global Random Search:
+Best Loss: 1.5159
+Best Hyperparameters:
+  Batch Size: 191
+  Learning Rate: 0.001625
+  Beta 1: 0.868706
+  Beta 2: 0.977476
+  Epochs: 13
+
+Population Random Search:
+Best Loss: 1.4596
+Best Hyperparameters:
+  Batch Size: 173
+  Learning Rate: 0.001581
+  Beta 1: 0.877051
+  Beta 2: 0.945393
+  Epochs: 27
+
