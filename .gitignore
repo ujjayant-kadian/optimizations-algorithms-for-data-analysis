@@ -4,3 +4,7 @@ __pycache__/
 .cursor
 **/__pycache__/
 **/.pytest_cache/
+*.pt
+*.pth
+**/models/*.pt
+**/models/*.pth
