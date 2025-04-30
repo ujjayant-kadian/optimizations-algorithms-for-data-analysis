@@ -1,0 +1,43 @@
+# Configuration for Week 9 Transformer Experiment
+# Comparing different optimizers for transformer training
+
+data:
+  data_dir: "src/transformer-datasets"
+  dataset_file: "input_childSpeech_trainingSet.txt"
+  test_file: null  # Set to file path if you want to evaluate on test data
+  batch_size: 64
+  block_size: 256
+
+training:
+  max_iters: 2000
+  eval_interval: 200
+  seed: 42
+  tuning_iters: 500  # Fewer iterations for hyperparameter tuning
+  enable_tuning: false
+  early_stopping:
+    enabled: true
+    patience: 3  # Number of evaluations with no improvement after which training will stop
+    min_delta: 0.001  # Minimum change in validation loss to qualify as improvement
+    min_epochs: 1  # Minimum number of epochs to train regardless of early stopping condition
+
+tuning:
+  sgd:
+    lr_values: [0.0001, 0.001, 0.01, 0.1]
+  adam:
+    lr_values: [0.0001, 0.001, 0.01]
+    beta1_values: [0.9, 0.95]
+    beta2_values: [0.999, 0.99]
+
+optimizers:
+  Adam:
+    lr: 0.001
+    betas: [0.9, 0.999]
+  SGD:
+    lr: 0.1
+  Polyak:
+    eps: 1.0e-8
+    f_star: 0.0
+
+logging:
+  log_dir: "results/logs/transformer"
+  save_models: true 

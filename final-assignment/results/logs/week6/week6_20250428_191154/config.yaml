@@ -1,0 +1,19 @@
+data:
+  m: 25
+  seed: 42
+  std: 0.25
+logging:
+  log_dir: results/logs/week6
+optimizer:
+  polyak:
+    eps: 1.0e-08
+    f_star: 0.0
+  sgd:
+    lr: 0.01
+training:
+  batch_sizes:
+  - 1
+  - 5
+  - 10
+  - 25
+  epochs: 100

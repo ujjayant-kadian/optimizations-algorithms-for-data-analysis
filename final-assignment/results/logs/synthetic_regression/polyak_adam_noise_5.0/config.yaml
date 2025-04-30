@@ -1,0 +1,35 @@
+data:
+  dimension: 20
+  n_samples: 1000
+  noise_std_values:
+  - 0.1
+  - 1.0
+  - 5.0
+  seeds:
+  - 0
+  - 42
+  - 1337
+logging:
+  log_dir: results/logs/synthetic_regression
+  save_interval: 1
+optimizer:
+  learning_rates:
+  - 0.001
+  - 0.01
+  - 0.1
+  - 1.0
+  polyak:
+    eps: 1.0e-08
+    f_star: 0.0
+  polyak_adam:
+    alpha: 0.003
+    amsgrad: false
+    polyak_factor: 0.3
+training:
+  batch_sizes:
+  - 1
+  - 16
+  - 64
+  - 256
+  - full
+  epochs: 20

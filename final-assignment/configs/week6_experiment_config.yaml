@@ -1,0 +1,24 @@
+# Week 6 Experiment Configuration
+
+# Data configuration
+data:
+  m: 25                # Number of data points
+  std: 0.25            # Standard deviation of Gaussian noise
+  seed: 42             # Random seed for reproducibility
+
+# Training configuration
+training:
+  batch_sizes: [1, 5, 10, 25] # Batch sizes to experiment with
+  epochs: 100                 # Number of training epochs
+
+# Optimizer configuration
+optimizer:
+  sgd:
+    lr: 0.01           # Constant step size for SGD
+  polyak:
+    eps: 1.0e-8          # Small epsilon to avoid division by zero
+    f_star: 0.0        # Optimal function value (usually 0)
+
+# Logging configuration
+logging:
+  log_dir: "results/logs/week6" # Directory to save results 
